@@ -60,7 +60,7 @@ public OnPlayerCommandText(playerid, cmdtext[])
 {
 	if (strcmp("/nitro", cmdtext, true, 6) == 0)
 	{
-		new veh_id GetPlayerVehicleID(playerid);
+		new veh_id = GetPlayerVehicleID(playerid);
 		AddVehicleComponent(veh_id, 1010);
 		// Do something here
 		return 1;
