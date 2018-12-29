@@ -1,4 +1,10 @@
 #include <a_samp>
+#include <zcmd>
+#include <sscanf>
+
+#define COLOR_RED 0xAA3333AA
+#define COLOR_GREEN 0x33AA33AA
+#define COLOR_MAGENTA 0xFF00FFFF
 
 main(){
 }
@@ -24,34 +30,13 @@ public OnPlayerRequestClass(playerid, classid)
 	return 1;
 }
 
-public OnPlayerConnect(playerid)
+public OnPlayerCommandPerformed(playerid, cmdtext[], success)
 {
-	return 1;
-}
-
-public OnPlayerDisconnect(playerid, reason)
-{
-	return 1;
-}
-
-public OnPlayerSpawn(playerid)
-{
-	return 1;
-}
-
-public OnPlayerDeath(playerid, killerid, reason)
-{
-	return 1;
-}
-
-public OnVehicleSpawn(vehicleid)
-{
-	return 1;
-}
-
-public OnVehicleDeath(vehicleid, killerid)
-{
-	return 1;
+    if (!success)
+    {
+       SendClientMessage(playerid,COLOR_RED,"[INFO] Cette commande n'existe pas !");
+    }
+    return 1;
 }
 
 public OnPlayerText(playerid, text[])
@@ -59,153 +44,27 @@ public OnPlayerText(playerid, text[])
 	return 1;
 }
 
-public OnPlayerCommandText(playerid, cmdtext[])
+
+CMD:nitro(playerid, params[])
 {
-	if(strcmp("/nitro", cmdtext, true, 6) == 0)
-	{
-		new veh_id = GetPlayerVehicleID(playerid);
-		AddVehicleComponent(veh_id, 1010);
-		return 1;
-	}else if(strcmp("/carfix", cmdtext, true ,7) == 0)
-	{
-        new veh_id = GetPlayerVehicleID(playerid);
-        RepairVehicle(veh_id);
-        return 1;
-	}
-	return 0;
+    new veh_id = GetPlayerVehicleID(playerid);
+	AddVehicleComponent(veh_id, 1010);
 }
 
-public OnPlayerEnterVehicle(playerid, vehicleid, ispassenger)
+CMD:carfix(playerid, params[])
 {
-	return 1;
+    new veh_id = GetPlayerVehicleID(playerid);
+    RepairVehicle(veh_id);
+    SendClientMessage(playerid,COLOR_MAGENTA, "[INFO] Réparation éfféctuée !");
 }
 
-public OnPlayerExitVehicle(playerid, vehicleid)
+CMD:tptoveh(playerid, params[])
 {
-	return 1;
+	new Float:veh_x, Float:veh_y, Float:veh_z;
+	new veh_id;
+	if(sscanf(params,"i",veh_id)) return SendClientMessage(playerid,COLOR_RED, "USAGE: /tptoveh <id>");
+	GetVehiclePos(veh_id, veh_x, veh_y, veh_z);
+	SetPlayerPos(playerid, veh_x, veh_y, veh_z);
 }
 
-public OnPlayerStateChange(playerid, newstate, oldstate)
-{
-	return 1;
-}
-
-public OnPlayerEnterCheckpoint(playerid)
-{
-	return 1;
-}
-
-public OnPlayerLeaveCheckpoint(playerid)
-{
-	return 1;
-}
-
-public OnPlayerEnterRaceCheckpoint(playerid)
-{
-	return 1;
-}
-
-public OnPlayerLeaveRaceCheckpoint(playerid)
-{
-	return 1;
-}
-
-public OnRconCommand(cmd[])
-{
-	return 1;
-}
-
-public OnPlayerRequestSpawn(playerid)
-{
-	return 1;
-}
-
-public OnObjectMoved(objectid)
-{
-	return 1;
-}
-
-public OnPlayerObjectMoved(playerid, objectid)
-{
-	return 1;
-}
-
-public OnPlayerPickUpPickup(playerid, pickupid)
-{
-	return 1;
-}
-
-public OnVehicleMod(playerid, vehicleid, componentid)
-{
-	return 1;
-}
-
-public OnVehiclePaintjob(playerid, vehicleid, paintjobid)
-{
-	return 1;
-}
-
-public OnVehicleRespray(playerid, vehicleid, color1, color2)
-{
-	return 1;
-}
-
-public OnPlayerSelectedMenuRow(playerid, row)
-{
-	return 1;
-}
-
-public OnPlayerExitedMenu(playerid)
-{
-	return 1;
-}
-
-public OnPlayerInteriorChange(playerid, newinteriorid, oldinteriorid)
-{
-	return 1;
-}
-
-public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
-{
-	return 1;
-}
-
-public OnRconLoginAttempt(ip[], password[], success)
-{
-	return 1;
-}
-
-public OnPlayerUpdate(playerid)
-{
-	return 1;
-}
-
-public OnPlayerStreamIn(playerid, forplayerid)
-{
-	return 1;
-}
-
-public OnPlayerStreamOut(playerid, forplayerid)
-{
-	return 1;
-}
-
-public OnVehicleStreamIn(vehicleid, forplayerid)
-{
-	return 1;
-}
-
-public OnVehicleStreamOut(vehicleid, forplayerid)
-{
-	return 1;
-}
-
-public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
-{
-	return 1;
-}
-
-public OnPlayerClickPlayer(playerid, clickedplayerid, source)
-{
-	return 1;
-}
+CMD:carhealth

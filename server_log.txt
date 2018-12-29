@@ -120,3 +120,213 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [02:52:39] Reading File: properties/banks.txt
 [02:52:39] Reading File: properties/police.txt
 [02:52:39] Number of vehicle models: 0
+[03:14:25] RCON (In-Game): Player [Kayde_Williamson] sent command: gmx
+[03:14:37] Reading File: blank
+[03:14:37] Reading File: properties/houses.txt
+[03:14:37] Reading File: properties/businesses.txt
+[03:14:37] Reading File: properties/banks.txt
+[03:14:37] Reading File: properties/police.txt
+[03:14:37] Number of vehicle models: 0
+[03:20:12] RCON (In-Game): Player [Kayde_Williamson] sent command: gmx
+[03:20:24] Reading File: blank
+[03:20:24] Reading File: properties/houses.txt
+[03:20:24] Reading File: properties/businesses.txt
+[03:20:24] Reading File: properties/banks.txt
+[03:20:24] Reading File: properties/police.txt
+[03:20:24] Number of vehicle models: 0
+[03:36:31] RCON (In-Game): Player [Kayde_Williamson] sent command: gmx
+[03:36:43] Reading File: blank
+[03:36:43] Reading File: properties/houses.txt
+[03:36:43] Reading File: properties/businesses.txt
+[03:36:43] Reading File: properties/banks.txt
+[03:36:43] Reading File: properties/police.txt
+[03:36:43] Script[gamemodes/testgm.amx]: Run time error 19: "File or function is not found"
+[03:36:43] Number of vehicle models: 0
+Console input: gmx
+Console input: rcon login raggae
+[03:38:30] Reading File: blank
+[03:38:30] Reading File: properties/houses.txt
+[03:38:30] Reading File: properties/businesses.txt
+[03:38:30] Reading File: properties/banks.txt
+[03:38:30] Reading File: properties/police.txt
+[03:38:30] Script[gamemodes/testgm.amx]: Run time error 19: "File or function is not found"
+[03:38:30] Number of vehicle models: 0
+Console input: gmx
+[03:39:46] Reading File: blank
+[03:39:46] Reading File: properties/houses.txt
+[03:39:46] Reading File: properties/businesses.txt
+[03:39:46] Reading File: properties/banks.txt
+[03:39:46] Reading File: properties/police.txt
+[03:39:46] Script[gamemodes/testgm.amx]: Run time error 19: "File or function is not found"
+[03:39:46] Number of vehicle models: 0
+Console input: gmx
+[03:40:13] Reading File: blank
+[03:40:13] Reading File: properties/houses.txt
+[03:40:13] Reading File: properties/businesses.txt
+[03:40:13] Reading File: properties/banks.txt
+[03:40:13] Reading File: properties/police.txt
+[03:40:13] Script[gamemodes/testgm.amx]: Run time error 19: "File or function is not found"
+[03:40:13] Number of vehicle models: 0
+Console input: gmx
+[03:40:43] Reading File: blank
+[03:40:43] Reading File: properties/houses.txt
+[03:40:43] Reading File: properties/businesses.txt
+[03:40:43] Reading File: properties/banks.txt
+[03:40:43] Reading File: properties/police.txt
+[03:40:43] Script[gamemodes/testgm.amx]: Run time error 19: "File or function is not found"
+[03:40:43] Number of vehicle models: 0
+Console input: gmx
+[03:41:06] Reading File: blank
+[03:41:06] Reading File: properties/houses.txt
+[03:41:06] Reading File: properties/businesses.txt
+[03:41:06] Reading File: properties/banks.txt
+[03:41:06] Reading File: properties/police.txt
+[03:41:06] Script[gamemodes/testgm.amx]: Run time error 19: "File or function is not found"
+[03:41:06] Number of vehicle models: 0
+Console input: gmx
+[03:41:25] Reading File: blank
+[03:41:25] Reading File: properties/houses.txt
+[03:41:25] Reading File: properties/businesses.txt
+[03:41:25] Reading File: properties/banks.txt
+[03:41:25] Reading File: properties/police.txt
+[03:41:25] Script[gamemodes/testgm.amx]: Run time error 19: "File or function is not found"
+[03:41:25] Number of vehicle models: 0
+Console input: gmx
+[03:42:05] Reading File: blank
+[03:42:05] Reading File: properties/houses.txt
+[03:42:05] Reading File: properties/businesses.txt
+[03:42:05] Reading File: properties/banks.txt
+[03:42:05] Reading File: properties/police.txt
+[03:42:05] Number of vehicle models: 0
+Console input: gmx
+[03:42:42] Reading File: blank
+[03:42:42] Reading File: properties/houses.txt
+[03:42:42] Reading File: properties/businesses.txt
+[03:42:42] Reading File: properties/banks.txt
+[03:42:42] Reading File: properties/police.txt
+[03:42:42] Script[gamemodes/testgm.amx]: Run time error 19: "File or function is not found"
+[03:42:42] Number of vehicle models: 0
+Console input: gmx
+[03:43:33] Reading File: blank
+[03:43:33] Reading File: properties/houses.txt
+[03:43:33] Reading File: properties/businesses.txt
+[03:43:33] Reading File: properties/banks.txt
+[03:43:33] Reading File: properties/police.txt
+[03:43:33] Number of vehicle models: 0
+Console input: gmx
+[03:44:51] Reading File: blank
+[03:44:51] Reading File: properties/houses.txt
+[03:44:51] Reading File: properties/businesses.txt
+[03:44:51] Reading File: properties/banks.txt
+[03:44:51] Reading File: properties/police.txt
+[03:44:51] Number of vehicle models: 0
+Console input: gmx
+[03:45:22] Reading File: blank
+[03:45:22] Reading File: properties/houses.txt
+[03:45:22] Reading File: properties/businesses.txt
+[03:45:22] Reading File: properties/banks.txt
+[03:45:22] Reading File: properties/police.txt
+[03:45:22] Script[gamemodes/testgm.amx]: Run time error 19: "File or function is not found"
+[03:45:22] Number of vehicle models: 0
+Console input: gmx
+[03:46:55] Reading File: blank
+[03:46:55] Reading File: properties/houses.txt
+[03:46:55] Reading File: properties/businesses.txt
+[03:46:55] Reading File: properties/banks.txt
+[03:46:55] Reading File: properties/police.txt
+[03:46:55] Script[gamemodes/testgm.amx]: Run time error 19: "File or function is not found"
+[03:46:55] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[03:49:17] 
+[03:49:17] Server Plugins
+[03:49:17] --------------
+[03:49:17]  Loading plugin: sscanf
+[03:49:17] 
+
+[03:49:17]  ===============================
+
+[03:49:17]       sscanf plugin loaded.     
+
+[03:49:17]          Version:  2.8.3        
+
+[03:49:17]   (c) 2018 Alex "Y_Less" Cole  
+
+[03:49:17]  ===============================
+
+[03:49:17]   Loaded.
+[03:49:17]  Loaded 1 plugins.
+
+[03:49:17] 
+[03:49:17] Filterscripts
+[03:49:17] ---------------
+[03:49:17]   Loading filterscript 'gl_actions.amx'...
+[03:49:17]   Loading filterscript 'gl_realtime.amx'...
+[03:49:17]   Loading filterscript 'gl_property.amx'...
+[03:49:17] 
+-----------------------------------
+[03:49:17] Grand Larceny Property Filterscript		
+[03:49:17] -----------------------------------
+
+[03:49:17]   Loading filterscript 'gl_mapicon.amx'...
+[03:49:17]   Loading filterscript 'ls_elevator.amx'...
+[03:49:17]   Loading filterscript 'attachments.amx'...
+[03:49:17]   Loading filterscript 'skinchanger.amx'...
+[03:49:17] 
+--Admin Player Skin Changer Loaded
+
+[03:49:17]   Loading filterscript 'vspawner.amx'...
+[03:49:17] 
+--Admin Vehicle Spawner Loaded
+
+[03:49:17]   Loading filterscript 'ls_mall.amx'...
+[03:49:17]   Loading filterscript 'ls_beachside.amx'...
+[03:49:17] 
+
+[03:49:17]   |---------------------------------------------------
+[03:49:17]   |--- LS BeachSide Filterscript
+[03:49:17]   |--  Script v1.03
+[03:49:17]   |--  19th April 2015
+[03:49:17]   |---------------------------------------------------
+[03:49:17]   |--  LS BeachSide Building Elevator created
+[03:49:17]   |---------------------------------------------------
+[03:49:17]   Loaded 10 filterscripts.
+
+[03:49:17] Reading File: blank
+[03:49:17] Reading File: properties/houses.txt
+[03:49:17] Reading File: properties/businesses.txt
+[03:49:17] Reading File: properties/banks.txt
+[03:49:17] Reading File: properties/police.txt
+[03:49:17] Number of vehicle models: 0
+[03:51:08] [connection] 127.0.0.1:56935 requests connection cookie.
+[03:51:09] [connection] incoming connection: 127.0.0.1:56935 id: 0
+[03:51:09] [join] Kayde_Williamson has joined the server (0:127.0.0.1)
+[03:51:41] RCON (In-Game): Player #0 (Kayde_Williamson) has logged in.
+[03:52:08] RCON (In-Game): Player [Kayde_Williamson] sent command: gmx
+[03:52:20] Reading File: blank
+[03:52:20] Reading File: properties/houses.txt
+[03:52:20] Reading File: properties/businesses.txt
+[03:52:20] Reading File: properties/banks.txt
+[03:52:20] Reading File: properties/police.txt
+[03:52:20] Number of vehicle models: 0
+Console input: gmx
+[03:55:44] Reading File: blank
+[03:55:44] Reading File: properties/houses.txt
+[03:55:44] Reading File: properties/businesses.txt
+[03:55:44] Reading File: properties/banks.txt
+[03:55:44] Reading File: properties/police.txt
+[03:55:44] Number of vehicle models: 0
+Console input: gmx
+[04:05:40] Reading File: blank
+[04:05:40] Reading File: properties/houses.txt
+[04:05:40] Reading File: properties/businesses.txt
+[04:05:40] Reading File: properties/banks.txt
+[04:05:40] Reading File: properties/police.txt
+[04:05:40] Number of vehicle models: 0
