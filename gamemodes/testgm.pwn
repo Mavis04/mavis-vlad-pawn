@@ -61,12 +61,16 @@ public OnPlayerText(playerid, text[])
 
 public OnPlayerCommandText(playerid, cmdtext[])
 {
-	if (strcmp("/nitro", cmdtext, true, 6) == 0)
+	if(strcmp("/nitro", cmdtext, true, 6) == 0)
 	{
 		new veh_id = GetPlayerVehicleID(playerid);
 		AddVehicleComponent(veh_id, 1010);
-		// Do something here
 		return 1;
+	}else if(strcmp("/carfix", cmdtext, true ,7) == 0)
+	{
+        new veh_id = GetPlayerVehicleID(playerid);
+        RepairVehicle(veh_id);
+        return 1;
 	}
 	return 0;
 }
