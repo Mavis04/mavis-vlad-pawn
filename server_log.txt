@@ -1,0 +1,56 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:43:05] 
+[02:43:05] Server Plugins
+[02:43:05] --------------
+[02:43:05]  Loaded 0 plugins.
+
+[02:43:05] 
+[02:43:05] Filterscripts
+[02:43:05] ---------------
+[02:43:05]   Loading filterscript 'gl_actions.amx'...
+[02:43:05]   Loading filterscript 'gl_realtime.amx'...
+[02:43:05]   Loading filterscript 'gl_property.amx'...
+[02:43:05] 
+-----------------------------------
+[02:43:05] Grand Larceny Property Filterscript		
+[02:43:05] -----------------------------------
+
+[02:43:05]   Loading filterscript 'gl_mapicon.amx'...
+[02:43:05]   Loading filterscript 'ls_elevator.amx'...
+[02:43:05]   Loading filterscript 'attachments.amx'...
+[02:43:05]   Loading filterscript 'skinchanger.amx'...
+[02:43:05] 
+--Admin Player Skin Changer Loaded
+
+[02:43:05]   Loading filterscript 'vspawner.amx'...
+[02:43:05] 
+--Admin Vehicle Spawner Loaded
+
+[02:43:05]   Loading filterscript 'ls_mall.amx'...
+[02:43:05]   Loading filterscript 'ls_beachside.amx'...
+[02:43:05] 
+
+[02:43:05]   |---------------------------------------------------
+[02:43:05]   |--- LS BeachSide Filterscript
+[02:43:05]   |--  Script v1.03
+[02:43:05]   |--  19th April 2015
+[02:43:05]   |---------------------------------------------------
+[02:43:05]   |--  LS BeachSide Building Elevator created
+[02:43:05]   |---------------------------------------------------
+[02:43:05]   Loaded 10 filterscripts.
+
+[02:43:06] Reading File: blank
+[02:43:06] Reading File: properties/houses.txt
+[02:43:06] Reading File: properties/businesses.txt
+[02:43:06] Reading File: properties/banks.txt
+[02:43:06] Reading File: properties/police.txt
+[02:43:06] Script[gamemodes/testgm.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[02:43:06] Number of vehicle models: 0

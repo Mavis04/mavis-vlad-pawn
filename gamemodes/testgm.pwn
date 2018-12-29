@@ -1,5 +1,8 @@
 #include <a_samp>
 
+main(){
+}
+
 public OnGameModeInit()
 {
 	// Don't use these lines if it's a filterscript
